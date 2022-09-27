@@ -21,7 +21,7 @@ const SwiperCards = () => {
       spaceBetween={5}
       slidesPerView={3}
       scrollbar={{ draggable: true }}
-      onSlideChange={() => console.log("slides changes")}
+      onSlideChange={() => console.log("slides changes done")}
       onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide className="swiper-slide">Slide 1</SwiperSlide>
