@@ -1,0 +1,9 @@
+.swiper-wrapper{
+    width: 100%;
+    display: flex;
+}
+.swiper-slide{
+    width: 20%;
+    height: 50vh;
+    background-color: bisque;
+}
